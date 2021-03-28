@@ -51,7 +51,7 @@ table {
 
 body {
     max-width: 1120px;
-    min-width: 375;
+    min-width: 270;
     padding: 0 25px 0 25px;
     Margin: auto;
     margin-top: 50px;
@@ -199,4 +199,23 @@ img {
         font-size: 40px;
         line-height: 50px;
     }
+    Body{
+        padding: 20px 20px 20px 20px;
+    }
+    .flexbox-container {
+        display: flex;
+        justify-content:space-around;
+        align-items: center;  
+    }  
+    .flexbox-item-3 {
+    flex: 0 0 250px;
+    min-height: 100px;
+    
+    }
+    .flexbox-item-4 {
+        flex: 0 0 250px;
+        min-height: 100px;
+    }
+    
+
 }
