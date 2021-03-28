@@ -50,8 +50,8 @@ table {
 
 
 body {
-    max-width: 680px;
-    min-width: 425;
+    max-width: 1120px;
+    min-width: 375;
     padding: 0 25px 0 25px;
     Margin: auto;
     margin-top: 50px;
@@ -68,16 +68,23 @@ body {
 }
 
 h1{
+    
+    max-width: 1120px;
+    padding: 0 25px 0 25px;
     font-family: 'Dela Gothic One', cursive;
     font-weight: 400;
     font-style: normal;
-    font-size: 30px;
-    line-height: 38px;
-    margin-bottom: 27px;
+    font-size: 70px;
+    line-height: 84px;
+    letter-spacing: .05em;
+    margin-bottom: 28px;
     color: #373c38;
 
  }
 h2{
+    max-width: 680px;
+    min-width: 425;
+    Margin: auto;
     font-family: 'courier-prime', monospace;
     font-weight: 400;
     font-style: normal;
@@ -89,16 +96,107 @@ h2{
 }
 
 h3{
+    max-width: 680px;
+    min-width: 425;
+    Margin: auto;
     font-size: smaller;
     line-height: 20px;
 }
 p{
+    max-width: 680px;
+    min-width: 425;
+    Margin: auto;
     font-family: 'courier-prime', monospace;
     font-weight: 400;
     font-style: normal;
-    margin-bottom: 29px;
+    margin-bottom: 28px;
     
+}
+.flexbox-container {
+    display: flex;
+    justify-content:start;
+    align-items: center;
+    
+}
+.flexbox-item{
+    width: 400px;
+    Margin: 28px;
 }
 
 
+.flexbox-item-1 {
+    flex: 1;
+    min-height: 100px;
+    Min-width: 275px; 
+}
 
+.flexbox-item-2 {
+    flex: 1 0 250px;
+    min-height: 100px;
+  
+    
+}.flexbox-item-3 {
+    flex: 0 0 350px;
+    min-height: 100px;
+    
+}
+.flexbox-item-4 {
+    flex: 0 0 350px;
+    min-height: 100px;
+    
+
+}
+Figure {
+    display: inline-block;
+  
+}
+Figcaption {
+    font-size: smaller;
+    line-height: 20px;
+    margin-bottom: 40px;
+}
+
+.widephoto {
+    max-width: 1120px;
+    
+
+}
+img {
+    width: 100%;
+    height: auto;
+
+}
+
+.pull-quote {
+    max-width: 1120px;
+    font-family: 'Dela Gothic One', cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: .02em;
+    margin-bottom: 28px;
+    color: #373c38;
+   
+}
+
+@media screen and (max-width: 800px) {
+    .pull-quote{
+        font-size: 18px;
+        line-height: 28px;
+    }
+    h1{
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .flexbox-container{
+        flex-wrap: wrap;
+    }
+
+}
+@media screen and (max-width: 475px) {
+    h1{
+        font-size: 40px;
+        line-height: 50px;
+    }
+}
