@@ -154,10 +154,10 @@ Figure {
 }
 Figcaption {
     font-family: 'Work Sans', sans-serif;
-    font-size:x-small;
+    font-size:13px;
     line-height: 18px;
     margin-bottom: 40px;
-    letter-spacing: .01em;
+    letter-spacing: .02em;
     color: mediumblue;
 }
 
@@ -179,7 +179,7 @@ img {
     font-style: normal;
     font-size: 26px;
     line-height: 32px;
-    letter-spacing: .02em;
+    letter-spacing: .03em;
     margin-bottom: 28px;
     color: #373c38;
    
